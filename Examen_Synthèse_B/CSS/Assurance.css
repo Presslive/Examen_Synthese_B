@@ -1,0 +1,84 @@
+.texte1 h1 {
+    color: green;
+}
+
+.texte1 p {
+    border-bottom: 2px solid green;
+}
+
+.liste1 ul {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.section1-outer {
+    display: grid;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    grid-template-columns: 200px 200px;
+    grid-gap: 150px;
+    grid-template-areas: "controle inscription";
+}
+
+.section1 {
+    grid-area: controle;
+}
+
+.inscription {
+    grid-area: inscription;
+    border-left: 3px solid green;
+    margin-left: 40px;
+}
+
+.section2-outer {
+    display: grid;
+    float: right;
+    grid-template-columns: 300px;
+    margin-bottom: 5px;
+    grid-gap: 10px;
+    grid-template-areas: "contact";
+}
+
+.bouton3 {
+    grid-area: contact;
+}
+
+.text-contact {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-gap: 10px;
+    grid-template-areas: "text-contact2 text-contact3 ";
+}
+
+.text-contact2 {
+    grid-area: text-contact2;
+}
+
+.text-contact3 {
+    grid-area: text-contact3;
+}
+
+.footer {
+    float: left;
+}
+
+.changement {
+    width: 60%;
+    background-color: green;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.changementImage {
+    width: 80px;
+    height: 80px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.lien:hover {
+    background-color: blue;
+}
